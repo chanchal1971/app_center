@@ -16,7 +16,7 @@ if (isset($_POST['email'])) {
 
 		
 
-		$mailTo = array('nitin@alitumsolutions.com');
+		$mailTo = array('xxx@xxx.com');
 		$mail = new SendGrid\Mail();
 		$mail->setTos($mailTo)->
 		setFrom($email)->
